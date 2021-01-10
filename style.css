@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'ifc_railroadbold';
+    src: url('font/ifc_railroad_2-webfont.woff2') format('woff2'),
+         url('font/ifc_railroad_2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  font-family: ifc_railroadbold, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  color: red;
+  font-size: 10vh;
+  min-width:auto;
+  min-height:auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   padding-left: 0;
+  }
+
+  li{
+   list-style: none;
+   width:40vh;
+   height:auto;
+   margin:10px;
+  }
+
+  p {
+    color: red;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 20px;
+  }
