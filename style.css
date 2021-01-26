@@ -15,6 +15,25 @@ body {
   padding: 0;
 }
 
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: red;
+  color: black;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -24,9 +43,11 @@ header {
 
 h1 {
   color: red;
-  font-size: 10vh;
-  min-width:auto;
-  min-height:auto;
+  font-size: 4em;
+  text-shadow: -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+     1px 1px 0 white;
 }
 
 img {
@@ -37,8 +58,8 @@ img {
 ul{
    display: flex;
    flex-direction: row;
+   flex-wrap: wrap;
    justify-content: center;
-    flex-wrap: wrap;
    align-items: center;
    align-content: center;
    padding-left: 0;
@@ -53,11 +74,15 @@ ul{
 
   p {
     color: red;
+    font-size: 1.5em;
+    text-shadow: -1px -1px 0 white,
+      1px -1px 0 white,
+      -1px 1px 0 white,
+       1px 1px 0 white;
   }
 
   footer {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    font-size: 20px;
   }
